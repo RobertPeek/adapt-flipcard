@@ -1,0 +1,16 @@
+{
+	"name": "adapt-flipcard",
+	"version": "1.0.0",
+	"framework": ">=5.8",
+	"homepage": "https://github.com/RobertPeek/adapt-flipcard",
+	"issues": "https://github.com/RobertPeek/adapt-flipcard/issues",
+	"description": "A component that displays clickable images, which reveal display text.",
+	"main": "/js/adapt-flipcard.js",
+	"displayName" : "Flipcard",
+	"component" : "flipcard",
+	"keywords": [
+		"adapt-plugin",
+		"adapt-component"
+	],
+	"license": "GPL-3.0"
+}

@@ -1,0 +1,45 @@
+{
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "flipcard",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Flip Card",
+    "displayTitle": "Flip Card",
+    "body": "This is optional body text.",
+    "instruction": "Click the image below to reveal the text.",
+    "_flipType": "singleFlip", //_flipType accepts 'singleFlip' and 'allFlip'
+    "_animation": "flipY", //_animation accepts 'flipY', 'flipX', 'slideUp', 'slideDown', 'slideLeft' and 'slideRight'
+    "_inRow": 4,
+    "_items": [
+        {
+            "frontImage": {
+                "src": "course/en/images/flip_1.png",
+                "alt": "flipcard item 1 graphic alt text here."
+            },
+            "backTitle": "Heading 1",
+            "backBody": "This is display text 1.",
+            "_audio": {
+                "src": "course/en/audio/***.mp3"
+            }
+        },
+        {
+            "frontImage": {
+                "src": "course/en/images/flip_2.png",
+                "alt": "flipcard item 1 graphic alt text here."
+            },
+            "backTitle": "Heading 2",
+            "backBody": "<ul><li>This is list item 1.</li><li>This is list item 2.</li></ul>",
+            "_audio": {
+                "src": "course/en/audio/***.mp3"
+            }
+        }
+    ]
+},
+
+// Add in course.json
+"_flipcard": {
+    "ariaRegion": "This component displays a row on images, which when selected flip to display text.",
+    "instruction": ""
+},
